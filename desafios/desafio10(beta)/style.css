@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    background-color: #63ca8e;
+}
+header{background-image: linear-gradient (to top, rgb(30, 71, 54), #63ca8e);
+    color: white;
+}
+menu{
+    background-color: darkgreen;
+}
+menu>a{
+    color: white;
+    text-decoration: none;
+}
+menu>a:hover{
+    color: blue;
+}
+p{
+    text-align: justify;
+}
+main{
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px black;
+}
+footer{
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px black;
+}
