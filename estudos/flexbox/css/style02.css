@@ -84,7 +84,7 @@ header li:last-child {
     text-transform: uppercase;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 720px) {
     header {
         flex-direction: column;
     }
@@ -96,10 +96,12 @@ header li:last-child {
     .hero h3 {
         font-size: 1.5rem;
     }
-    .conheca-o-hotel .grid li.small, .conheca-o-hotel .grid li.large { 
+    .conheca-o-hotel > ul > li { 
         flex-basis: 100%;
+        
     }
 }
+    
 
 /*conheça o hotel*/
 
