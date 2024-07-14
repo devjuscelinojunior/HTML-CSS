@@ -100,6 +100,14 @@ header li:last-child {
         flex-basis: 100%;
         
     }
+    ul .grid {
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+    .conheca-o-hotel {
+        flex-flow:column wrap;
+        
+    }
 }
     
 

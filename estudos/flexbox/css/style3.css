@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.container {
+    display: flex;
+    background-color: brown;
+    gap: 10px;
+    height: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+
+}
+.item-3 {
+    flex-basis: 100px;
+}
+.item-1 {
+    flex-grow: 1;
+}
